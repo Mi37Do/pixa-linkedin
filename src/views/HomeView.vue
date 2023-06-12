@@ -42,7 +42,15 @@ const messeges = ref([
 </script>
 
 <template>
-  <main class="w-full h-screen bg-slate-100 flex justify-center">
+
+  <div class="w-full h-screen flex lg:hidden flex-col items-center justify-center gap-4 text-lg font-semibold">
+    <span>Available on pc device only</span>
+    <span>Visit my portfolio : <a href="https://pixaviz.vercel.app/" class="text-primary">pixaviz.</a></span>
+
+    <span class="loading loading-ring loading-md"></span>
+  </div>
+
+  <main class="w-full h-screen bg-slate-100 hidden lg:flex justify-center">
     <NewPostModal/>
     <div class="w-full h-full max-w-screen-xl flex flex-col">
       <TopBar/>

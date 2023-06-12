@@ -15,21 +15,21 @@
                     <div class="grow flex justify-between">
                     <button class="btn btn-sm btn-costume w-fit rounded-md btn-ghost px-2">
                         <PictureIcon class="w-6 h-6 fill-primary"/>
-                        <span class="capitalize text-primary">post picture</span>
+                        <span class="capitalize text-primary hidden xl:block">post picture</span>
                     </button>
                     <button class="btn btn-sm btn-costume w-fit rounded-md btn-ghost px-2">
                         <PlayIcon class="w-6 h-6 fill-primary"/>
-                        <span class="capitalize text-primary">post video</span>
+                        <span class="capitalize text-primary hidden xl:block">post video</span>
                     </button>
 
                     <button class="btn btn-sm btn-costume w-fit rounded-md btn-ghost px-2">
                         <CalendarIcon class="w-6 h-6 fill-primary"/>
-                        <span class="capitalize text-primary">create event</span>
+                        <span class="capitalize text-primary hidden xl:block">create event</span>
                     </button>
 
                     <button class="btn btn-sm btn-costume w-fit rounded-md btn-ghost px-2">
                         <ArticleIcon class="w-6 h-6 fill-primary"/>
-                        <span class="capitalize text-primary">write article</span>
+                        <span class="capitalize text-primary hidden xl:block">write article</span>
                     </button>
                     </div>
                 </div>

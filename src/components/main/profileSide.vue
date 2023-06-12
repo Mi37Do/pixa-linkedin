@@ -1,15 +1,15 @@
 <template>
-<div class="w-72 h-full flex flex-col pr-4 py-4 border-r border-slate-200 my-4 overflow-y-auto overflow-x-hidden">
+<div class="w72 h-full flex flex-col pr-4 py-4 border-r border-slate-200 my-4 overflow-y-auto overflow-x-hidden">
             <a href="https://pixaviz.vercel.app/" class="w-full h-12 flex items-center gap-4 hover:cursor-pointer">
               <div class="w-10 h-10 relative">
-               <img src="@/assets/me.png" class="w-10 h-10 object-cover rounded-lg" alt="">
+               <img src="@/assets/me.png" class="w-10 h-10 object-cover rounded-lg flex-none" alt="">
                <span class="w-3 h-3 bg-green-500 absolute rounded-full -bottom-1 -right-1 outline outline-white"></span>
               </div>
               
 
               <div class="grow flex flex-col overflow-hidden">
                 <span class="capitalize font-semibold text-base truncate">laksari mohammed salah eddine</span>
-                <span class="turncate text-slate-400">UI/UX designer, frontend developer</span>
+                <span class="text-slate-400 turncate">UI/UX designer, frontend developer</span>
               </div>
             </a>
 
