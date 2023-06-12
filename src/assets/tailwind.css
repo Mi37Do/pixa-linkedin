@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.btn-costume{
+    height: 2.5rem;
+}
+
+.btn-ghost:hover{
+    background-color: rgba(203, 213, 225, 0.2);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    
+  }
+
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
